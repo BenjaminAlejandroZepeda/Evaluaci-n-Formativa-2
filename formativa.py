@@ -92,8 +92,8 @@ while MENU1 is True:
 
         while MENU2 is True:
             print("""
-                1. Terminar pedido
-                2. Cancelar Compra y volver
+                1. Terminar pedido y salir
+                2. Terminar pedido y volver al menu
                 """)
             try:
                 opc = int(input("Elija una opción: "))
@@ -108,7 +108,9 @@ while MENU1 is True:
                 MENU1 = False
                 break
             elif opc == 2:
-                print("**********")
+                print("""     
+                    PAGO REALIZADO......
+                    Volviendo al menu.....""")
                 pikachu = 0
                 Otaku = 0
                 pulpoVen = 0
